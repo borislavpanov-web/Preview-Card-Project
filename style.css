@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@media (max-width:600px)
+{.nav li {position:relative; display:block;width:100%!important}
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1b1f24;
+}
+
+/* #main {
+    position: absolute;
+    background-color: #4a698f;
+    size: 70%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#main h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#main p {
+    font-size: 15px;
+    padding: 25px;
+}
+
+#CoPilotLogo {
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+} */
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 15%;
+    background-color: #4a698f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.full-content h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.full-content p {
+    border-radius: 55px;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 25px;
+    color: #fff;
+}
+
+.full-content {
+    background-color: #4a698f;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.full-content button {
+    width: 90%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #4a698f;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 55px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.full-content button:hover {
+    background-color: #fff;
+    color: #4a698f;
+}
+
+.full-content .info  {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.full-content .refrence {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+
+.full-content .info:hover {
+    color: #3d3363;
+    transition: all 0.5s ease;
+}
